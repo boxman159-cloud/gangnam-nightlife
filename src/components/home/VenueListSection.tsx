@@ -13,11 +13,16 @@ export default function VenueListSection() {
   const [activeRegion, setActiveRegion] = useState<Region>('전체')
 
   useEffect(() => {
-    if (window.location.hash === '#lounges') {
-      setActiveTab('lounge')
-    } else if (window.location.hash === '#clubs') {
-      setActiveTab('club')
+    const applyHash = () => {
+      if (window.location.hash === '#lounges') {
+        setActiveTab('lounge')
+      } else if (window.location.hash === '#clubs') {
+        setActiveTab('club')
+      }
     }
+    applyHash()
+    window.addEventListener('hashchange', applyHash)
+    return () => window.removeEventListener('hashchange', applyHash)
   }, [])
   const { t } = useLanguage()
 
