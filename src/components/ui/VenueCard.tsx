@@ -51,20 +51,25 @@ export default function VenueCard({ venue }: VenueCardProps) {
           <span className="text-gray-400 text-sm">{venue.location}</span>
         </div>
 
-        <div className="flex items-center justify-between">
-          <div className="text-xs text-gray-500">
-            <span className="text-neon-pink font-medium">{t('venue.table')} {tablePrice}</span>
-            <span className="mx-1">·</span>
-            <span>{t('venue.guest')} {(guestFee.includes('무료') || guestFee.toLowerCase().includes('free') || guestFee.includes('免费') || guestFee.includes('無料')) ? t('venue.free') : t('venue.paid')}</span>
-          </div>
-          <Link href={href}
-            className="text-sm font-semibold text-neon-pink hover:text-white transition-colors flex items-center gap-1 group/link">
-            {t('venue.detail')}
-            <svg className="w-4 h-4 group-hover/link:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </Link>
+        {/* 가격 뱃지 */}
+        <div className="flex flex-wrap gap-1.5 mb-4">
+          {tablePrice.split('\n').map((line, i) => (
+            <span key={i} className="inline-flex items-center gap-1 bg-neon-pink/10 border border-neon-pink/20 text-neon-pink text-xs font-medium px-2.5 py-1 rounded-full">
+              🍾 {line}
+            </span>
+          ))}
+          <span className="inline-flex items-center gap-1 bg-white/5 border border-white/10 text-gray-400 text-xs font-medium px-2.5 py-1 rounded-full">
+            ✨ {t('venue.guest')} {(guestFee.includes('무료') || guestFee.toLowerCase().includes('free') || guestFee.includes('免费') || guestFee.includes('無料')) ? t('venue.free') : t('venue.paid')}
+          </span>
         </div>
+
+        <Link href={href}
+          className="flex items-center justify-center gap-1.5 w-full py-2.5 rounded-xl border border-neon-pink/30 text-neon-pink text-sm font-semibold hover:bg-neon-pink hover:text-white transition-all duration-200 group/link">
+          {t('venue.detail')}
+          <svg className="w-4 h-4 group-hover/link:translate-x-0.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+          </svg>
+        </Link>
       </div>
     </div>
   )
