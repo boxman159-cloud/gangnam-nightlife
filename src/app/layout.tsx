@@ -1,11 +1,11 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/layout/Navbar'
 import Footer from '@/components/layout/Footer'
 import { LanguageProvider } from '@/context/LanguageContext'
 import { OrganizationJsonLd, WebSiteJsonLd } from '@/components/seo/JsonLd'
 
-const BASE = 'https://gangnam-clubnlounge.com'
+const BASE = 'https://allnight.kr'
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),

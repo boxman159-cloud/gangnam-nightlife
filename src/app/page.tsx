@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+﻿import type { Metadata } from 'next'
 import HeroSection from '@/components/home/HeroSection'
 import VenueListSection from '@/components/home/VenueListSection'
 import WhyUsSection from '@/components/home/WhyUsSection'
@@ -10,11 +10,11 @@ import { FaqJsonLd } from '@/components/seo/JsonLd'
 export const metadata: Metadata = {
   title: '강남 클럽앤라운지 | 강남 클럽 & 라운지 예약 | 게스트리스트 무료',
   description: '강남 클럽(에이스·라이언·플러스82) & 압구정·청담 라운지(벨레어·아르쥬·피플더테라스·컬러라운지·하잎서울) 통합 예약. 게스트리스트 무료 등록, 테이블 예약 전문. 24시간 문의 010-8215-8571',
-  alternates: { canonical: 'https://gangnam-clubnlounge.com' },
+  alternates: { canonical: 'https://allnight.kr' },
   openGraph: {
     title: '강남 클럽앤라운지 | 게스트리스트 무료 · 테이블 예약',
     description: '강남 최고의 클럽 & 라운지를 한 곳에서. 에이스(레이스), 라이언 슈퍼클럽, 플러스82, 벨레어청담, 아르쥬청담, 피플더테라스, 컬러라운지, 하잎서울 예약 전문.',
-    url: 'https://gangnam-clubnlounge.com',
+    url: 'https://allnight.kr',
   },
 }
 

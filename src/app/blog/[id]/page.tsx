@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation'
+﻿import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import type React from 'react'
 import Link from 'next/link'
@@ -6,7 +6,7 @@ import { posts, getPostBySlug } from '@/data/posts'
 import ContactButtons from '@/components/ui/ContactButtons'
 import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
 
-const BASE = 'https://gangnam-clubnlounge.com'
+const BASE = 'https://allnight.kr'
 
 interface Props { params: { id: string } }
 

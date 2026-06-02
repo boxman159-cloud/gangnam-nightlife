@@ -1,4 +1,4 @@
-// 구조화 데이터 (JSON-LD) — 구글 리치 스니펫용
+﻿// 구조화 데이터 (JSON-LD) — 구글 리치 스니펫용
 
 export function OrganizationJsonLd() {
   const data = {
@@ -6,7 +6,7 @@ export function OrganizationJsonLd() {
     '@type': 'Organization',
     name: '강남 클럽앤라운지',
     alternateName: 'Gangnam Club & Lounge',
-    url: 'https://gangnam-clubnlounge.com',
+    url: 'https://allnight.kr',
     description: '강남(신사·청담·압구정) 클럽 & 라운지 통합 예약 플랫폼. 에이스(레이스), 라이언 슈퍼클럽, 플러스82, 벨레어청담, 아르쥬청담, 피플더테라스, 컬러라운지, 하잎서울, DM X 인트로 예약 전문.',
     telephone: '010-8215-8571',
     areaServed: ['강남구', '서초구', '청담동', '압구정동', '신사동'],
@@ -32,13 +32,13 @@ export function WebSiteJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: '강남 클럽앤라운지',
-    url: 'https://gangnam-clubnlounge.com',
+    url: 'https://allnight.kr',
     description: '강남 클럽 & 라운지 예약 전문 플랫폼',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://gangnam-clubnlounge.com/blog?q={search_term_string}',
+        urlTemplate: 'https://allnight.kr/blog?q={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },
@@ -76,8 +76,8 @@ export function VenueJsonLd({ venue }: VenueJsonLdProps) {
       addressCountry: 'KR',
     },
     telephone: '010-8215-8571',
-    url: `https://gangnam-clubnlounge.com/${venue.type === 'club' ? 'clubs' : 'lounges'}/${venue.id}`,
-    reservationUrl: 'https://gangnam-clubnlounge.com/#quick-booking',
+    url: `https://allnight.kr/${venue.type === 'club' ? 'clubs' : 'lounges'}/${venue.id}`,
+    reservationUrl: 'https://allnight.kr/#quick-booking',
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '4.8',

@@ -1,8 +1,8 @@
-import type { MetadataRoute } from 'next'
+﻿import type { MetadataRoute } from 'next'
 import { venues } from '@/data/venues'
 import { posts } from '@/data/posts'
 
-const BASE = 'https://gangnam-clubnlounge.com'
+const BASE = 'https://allnight.kr'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const venuePages = venues.map((v) => ({

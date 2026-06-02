@@ -1,11 +1,11 @@
-import { notFound } from 'next/navigation'
+﻿import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { getVenueById, venues } from '@/data/venues'
 import VenueHero from '@/components/venue/VenueHero'
 import VenueDetailTabs from '@/components/venue/VenueDetailTabs'
 import { VenueJsonLd, BreadcrumbJsonLd, FaqJsonLd } from '@/components/seo/JsonLd'
 
-const BASE = 'https://gangnam-clubnlounge.com'
+const BASE = 'https://allnight.kr'
 
 interface Props { params: { id: string } }
 
