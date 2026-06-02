@@ -2,7 +2,7 @@ import type { Venue } from '@/types'
 
 export const venues: Venue[] = [
   {
-    id: 'club-ace',
+    id: 'clubace',
     type: 'club',
     name: '클럽 에이스(레이스)',
     nameEn: 'CLUB ACE (RACE)',
@@ -30,7 +30,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'club-lion',
+    id: 'clublion',
     type: 'club',
     name: '클럽 라이언',
     nameEn: 'CLUB LION',
@@ -58,7 +58,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'club-plus82',
+    id: 'clubplus82',
     type: 'club',
     name: '클럽 플러스82',
     nameEn: 'CLUB PLUS82',
@@ -88,7 +88,7 @@ export const venues: Venue[] = [
   },
   // ── 청담 라운지 ──────────────────────────────────────────────
   {
-    id: 'bellair-cheongdam',
+    id: 'bellaircheongdam',
     type: 'lounge',
     name: '벨레어청담',
     nameEn: 'BELLAIR CHEONGDAM',
@@ -118,7 +118,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'arju-cheongdam',
+    id: 'arjucheongdam',
     type: 'lounge',
     name: '아르쥬청담',
     nameEn: 'ARJU CHEONGDAM',
@@ -150,7 +150,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'people-terrace',
+    id: 'peopleterrace',
     type: 'lounge',
     name: '피플더테라스',
     nameEn: 'PEOPLE THE TERRACE',
@@ -183,7 +183,7 @@ export const venues: Venue[] = [
   },
   // ── 압구정 로데오 라운지 ──────────────────────────────────────
   {
-    id: 'color-lounge',
+    id: 'colorlounge',
     type: 'lounge',
     name: '컬러라운지',
     nameEn: 'COLOR LOUNGE',
@@ -213,7 +213,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'hype-seoul',
+    id: 'hypeseoul',
     type: 'lounge',
     name: '하잎서울 (HYPE Seoul)',
     nameEn: 'HYPE SEOUL',
@@ -243,7 +243,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'dm-intro',
+    id: 'dmintro',
     type: 'lounge',
     name: 'DM X 인트로',
     nameEn: 'DM X INTRO',
