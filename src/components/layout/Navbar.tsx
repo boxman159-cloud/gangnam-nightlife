@@ -43,12 +43,12 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-300 hover:text-neon-pink transition-colors duration-200 font-medium text-sm tracking-wide"
+                className="text-gray-300 hover:text-neon-pink transition-colors duration-200 font-medium text-sm tracking-wide whitespace-nowrap"
               >
                 {link.label}
               </Link>
@@ -56,7 +56,7 @@ export default function Navbar() {
           </div>
 
           {/* Right side */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden md:flex items-center gap-2 flex-shrink-0">
             <LanguageSwitcher />
             <ContactButtons size="sm" />
             <Link href="/#quick-booking" className="btn-primary text-sm py-2 px-4">
