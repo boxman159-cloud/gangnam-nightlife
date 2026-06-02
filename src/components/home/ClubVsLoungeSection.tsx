@@ -57,7 +57,7 @@ export default function ClubVsLoungeSection() {
               {
                 label: '소비 규모',
                 club: '수백만 원~천만 원대 초고액 테이블 위주',
-                lounge: '바(Bar) 주류 소비 가능, 비교적 합리적인 바틀가',
+                lounge: '바(Bar) 주류 소비 가능, 비교적 합리적인 바틀가격',
                 cheongdam: '최고급 샴페인·싱글몰트 위스키·파인 다이닝급 핑거 푸드',
               },
               {
