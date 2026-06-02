@@ -42,14 +42,14 @@ export const metadata: Metadata = {
     locale: 'ko_KR',
     alternateLocale: ['en_US', 'zh_CN', 'ja_JP'],
     url: BASE,
-    siteName: '강남 클럽앤라운지',
-    title: '강남 클럽 & 라운지 통합 예약 정보 | 실시간 테이블 및 게스트 문의',
+    siteName: '강남클럽&라운지',
+    title: '강남클럽&라운지 | 테이블 예약 안내 및 게스트 입장 무료',
     description: '강남·신사·청담·압구정 클럽 및 라운지 공식 예약 플랫폼. 레이스, 라이언, 플러스82(플팔), 컬러, DM 등 핫플레이스 실시간 테이블 잔여 좌석 확인 및 무료 게스트 신청 안내.',
     images: [{ url: '/opengraph-image.png', width: 1200, height: 630, alt: '강남 클럽앤라운지' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '강남 클럽 & 라운지 통합 예약 정보 | 실시간 테이블 및 게스트 문의',
+    title: '강남클럽&라운지 | 테이블 예약 안내 및 게스트 입장 무료',
     description: '강남·신사·청담·압구정 클럽 및 라운지 공식 예약 플랫폼. 실시간 테이블 잔여 좌석 확인 및 무료 게스트 신청 안내.',
     images: ['/opengraph-image.png'],
   },
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'google-site-verification-code-here',
+    google: 'zj8VD9NAlt7cPqVsFnmirZV-iEYis0yOyjy9R7a1bZk',
   },
 }
 
