@@ -46,7 +46,7 @@ export default function ClubVsLoungeSection() {
                 label: '공간 성격',
                 club: '하드코어 댄스, 웅장한 사운드, 메가급 규모',
                 lounge: '힙하고 감각적인 인테리어, 클럽 믹스 바',
-                cheongdam: '최고급 인테리어, 정제된 조명, 하이엔드 멤버십 스타일',
+                cheongdam: '최고급 인테리어, 정제된 조명, 하이엔드 프라이빗 스타일',
               },
               {
                 label: '주요 음악',
@@ -68,7 +68,7 @@ export default function ClubVsLoungeSection() {
               },
               {
                 label: '바이브',
-                club: '폭발적인 에너지, 적극적인 유흥 및 헌팅',
+                club: '폭발적인 에너지, 헌팅 및 파티 문화',
                 lounge: '세련된 사교, 인스타그래머블, 자연스러운 교류',
                 cheongdam: '깊이 있는 대화, 비즈니스 사교, 기업가·셀럽·자산가 아지트',
               },
@@ -146,8 +146,8 @@ export default function ClubVsLoungeSection() {
             프라이빗 럭셔리와 최고급 소셜 웰니스의 정점
           </p>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
-            청담동 라운지는 최고급 인테리어와 정제된 조명, 클래식한 감성이 어우러진 하이엔드 멤버십
-            스타일의 사교 공간입니다. 음악은 대화를 방해하지 않는 정통 하우스, 딥하우스, 혹은 재즈
+            청담동 라운지는 최고급 인테리어와 정제된 조명, 클래식한 감성이 어우러진 하이엔드
+            프라이빗 사교 공간입니다. 음악은 대화를 방해하지 않는 정통 하우스, 딥하우스, 혹은 재즈
             감성이 가미된 고급스러운 비트가 주를 이룹니다.
           </p>
           <p className="text-gray-400 text-sm leading-relaxed">
