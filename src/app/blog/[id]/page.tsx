@@ -4,7 +4,7 @@ import type React from 'react'
 import Link from 'next/link'
 import { posts, getPostBySlug } from '@/data/posts'
 import ContactButtons from '@/components/ui/ContactButtons'
-import { BreadcrumbJsonLd } from '@/components/seo/JsonLd'
+import { BreadcrumbJsonLd, ArticleJsonLd } from '@/components/seo/JsonLd'
 
 const BASE = 'https://allnight.kr'
 
@@ -115,6 +115,7 @@ export default function BlogDetailPage({ params }: Props) {
 
   return (
     <div className="min-h-screen pt-24 pb-20">
+      <ArticleJsonLd post={post} />
       <BreadcrumbJsonLd items={[
         { name: '홈', url: BASE },
         { name: '블로그', url: `${BASE}/blog` },

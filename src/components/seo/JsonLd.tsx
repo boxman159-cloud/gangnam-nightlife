@@ -10,7 +10,11 @@ export function OrganizationJsonLd() {
     description: '강남(신사·청담·압구정) 클럽 & 라운지 통합 예약 플랫폼. 에이스(레이스), 라이언 슈퍼클럽, 플러스82, 벨레어청담, 아르쥬청담, 피플더테라스, 컬러라운지, 하잎서울, DM X 인트로 예약 전문.',
     telephone: '010-8215-8571',
     areaServed: ['강남구', '서초구', '청담동', '압구정동', '신사동'],
-    sameAs: [],
+    sameAs: [
+      'https://www.instagram.com/allnight.kr',
+      'https://pf.kakao.com/_alrep0410',
+      'https://allnight.kr',
+    ],
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '010-8215-8571',
@@ -105,6 +109,41 @@ export function BreadcrumbJsonLd({ items }: { items: { name: string; url: string
       name: item.name,
       item: item.url,
     })),
+  }
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
+}
+
+export function ArticleJsonLd({ post }: {
+  post: { title: string; excerpt: string; date: string; image: string; slug: string }
+}) {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    image: post.image.startsWith('http') ? post.image : `https://allnight.kr${post.image}`,
+    datePublished: post.date,
+    dateModified: post.date,
+    author: {
+      '@type': 'Organization',
+      name: '올나잇 (Allnight)',
+      url: 'https://allnight.kr',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: '올나잇 (Allnight)',
+      url: 'https://allnight.kr',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://allnight.kr/images/logo.webp',
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://allnight.kr/blog/${post.slug}`,
+    },
+    keywords: '강남 클럽, 강남 라운지, 청담 라운지, 압구정 라운지, 강남 나이트',
+    inLanguage: 'ko-KR',
   }
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
 }

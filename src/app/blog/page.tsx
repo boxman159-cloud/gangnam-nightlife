@@ -3,8 +3,17 @@ import Link from 'next/link'
 import { posts } from '@/data/posts'
 
 export const metadata: Metadata = {
-  title: '블로그 | 강남 클럽앤라운지',
-  description: '강남 클럽 & 압구정·청담 라운지 최신 정보와 가이드',
+  title: '강남 클럽·라운지 블로그 | 예약 가이드 & 핫플 정보',
+  description: '강남 클럽(레이스·라이언·플러스82) & 청담·압구정 라운지 최신 가이드. 테이블 예약 팁, 드레스코드, 업장 비교, 동선 추천까지 올나잇이 정리합니다.',
+  keywords: ['강남 클럽 추천', '강남 라운지 추천', '청담 라운지 가이드', '압구정 클럽 정보', '강남 나이트라이프', '클럽 예약 팁', '라운지 테이블 가격', '강남 주말 코스'],
+  alternates: { canonical: 'https://allnight.kr/blog' },
+  openGraph: {
+    title: '강남 클럽·라운지 블로그 | 예약 가이드 & 핫플 정보',
+    description: '강남 클럽(레이스·라이언·플러스82) & 청담·압구정 라운지 최신 가이드. 테이블 예약 팁, 드레스코드, 업장 비교, 동선 추천.',
+    url: 'https://allnight.kr/blog',
+    type: 'website',
+    images: [{ url: '/images/lion-2.webp', width: 1200, height: 630 }],
+  },
 }
 
 const categoryColors: Record<string, string> = {
