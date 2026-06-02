@@ -10,10 +10,10 @@ const BASE = 'https://gangnam-clubnlounge.com'
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
   title: {
-    default: '강남 클럽앤라운지 | 강남 클럽 & 라운지 예약',
-    template: '%s | 강남 클럽앤라운지',
+    default: '강남 클럽 & 라운지 통합 예약 정보 | 실시간 테이블 및 게스트 문의',
+    template: '%s | 강남 클럽 & 라운지 통합 예약',
   },
-  description: '강남(신사·청담·압구정) 클럽 & 라운지 통합 예약 플랫폼. 에이스(레이스), 라이언 슈퍼클럽, 플러스82 애프터클럽, 벨레어청담, 아르쥬청담, 피플더테라스, 컬러라운지, 하잎서울 게스트리스트 무료 예약.',
+  description: '강남·신사·청담·압구정 클럽 및 라운지 공식 예약 플랫폼. 레이스, 라이언, 플러스82(플팔), 컬러, DM 등 핫플레이스 실시간 테이블 잔여 좌석 확인 및 무료 게스트 신청 안내.',
   keywords: [
     '강남 클럽', '강남 클럽 예약', '강남 라운지', '청담 라운지', '압구정 라운지',
     '게스트 리스트', '테이블 예약', '클럽 에이스', '레이스 클럽', '라이언 슈퍼클럽',
@@ -43,14 +43,14 @@ export const metadata: Metadata = {
     alternateLocale: ['en_US', 'zh_CN', 'ja_JP'],
     url: BASE,
     siteName: '강남 클럽앤라운지',
-    title: '강남 클럽앤라운지 | 강남 클럽 & 라운지 예약',
-    description: '강남 최고의 클럽과 라운지를 한 곳에서. 게스트리스트 무료 등록, 테이블 예약 전문.',
+    title: '강남 클럽 & 라운지 통합 예약 정보 | 실시간 테이블 및 게스트 문의',
+    description: '강남·신사·청담·압구정 클럽 및 라운지 공식 예약 플랫폼. 레이스, 라이언, 플러스82(플팔), 컬러, DM 등 핫플레이스 실시간 테이블 잔여 좌석 확인 및 무료 게스트 신청 안내.',
     images: [{ url: '/opengraph-image.png', width: 1200, height: 630, alt: '강남 클럽앤라운지' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: '강남 클럽앤라운지 | 강남 클럽 & 라운지 예약',
-    description: '강남 최고의 클럽과 라운지를 한 곳에서. 게스트리스트 무료 등록.',
+    title: '강남 클럽 & 라운지 통합 예약 정보 | 실시간 테이블 및 게스트 문의',
+    description: '강남·신사·청담·압구정 클럽 및 라운지 공식 예약 플랫폼. 실시간 테이블 잔여 좌석 확인 및 무료 게스트 신청 안내.',
     images: ['/opengraph-image.png'],
   },
   alternates: {
