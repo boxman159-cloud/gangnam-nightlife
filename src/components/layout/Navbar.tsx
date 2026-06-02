@@ -37,8 +37,8 @@ export default function Navbar() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-neon-pink to-neon-purple flex items-center justify-center">
               <span className="text-white font-black text-sm">GN</span>
             </div>
-            <span className="text-white font-black text-xl tracking-tight">
-              강남<span className="text-gradient">클럽앤라운지</span>
+            <span className="font-black text-xl tracking-tight">
+              <span className="text-gradient">강남클럽</span><span className="text-white">&amp;</span><span className="text-gradient">라운지</span>
             </span>
           </Link>
 
