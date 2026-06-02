@@ -59,7 +59,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center gap-2 flex-shrink-0">
             <LanguageSwitcher />
             <ContactButtons size="sm" />
-            <Link href="/#quick-booking" className="btn-primary text-sm py-2 px-4">
+            <Link href="/#quick-booking" className="btn-primary text-sm py-2 px-4 whitespace-nowrap">
               {t('nav.quickBook')}
             </Link>
           </div>

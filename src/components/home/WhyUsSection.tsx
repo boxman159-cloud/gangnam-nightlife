@@ -157,8 +157,9 @@ export default function WhyUsSection() {
                 {r.quote}
               </blockquote>
               <p className="text-gray-400 text-sm leading-relaxed mb-5">{r.body}</p>
-              <div className={`inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-bold border ${colors[i].badge}`}>
-                ✓ {r.highlight}
+              <div className={`inline-flex items-start gap-2 rounded-xl px-4 py-2 text-sm font-bold border leading-snug ${colors[i].badge}`}>
+                <span className="flex-shrink-0 mt-0.5">✓</span>
+                <span>{r.highlight}</span>
               </div>
             </div>
           </div>

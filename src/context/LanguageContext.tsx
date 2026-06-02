@@ -21,7 +21,7 @@ const translations: Record<Lang, Record<string, string>> = {
     'nav.quickBook': '빠른 예약',
 
     // Hero
-    'hero.badge': '강남 No.1 클럽 & 라운지 예약 플랫폼',
+    'hero.badge': '강남 No.1 클럽 & 라운지 플랫폼',
     'hero.title1': '강남 클럽부터',
     'hero.title2': '라운지까지',
     'hero.desc': '강남 최고의 핫플레이스를 한 번에 예약하세요.',

@@ -36,11 +36,11 @@ export default function ContactButtons({ size = 'md' }: Props) {
 
   return (
     <>
-      <div className="flex flex-wrap gap-3 justify-center">
+      <div className="flex flex-wrap gap-3 justify-center items-center">
         {/* 전화 — 모든 언어 공통 */}
         <a
           href={`tel:${PHONE}`}
-          className={`inline-flex items-center gap-2 font-bold text-white rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg ${px}`}
+          className={`inline-flex items-center gap-2 font-bold text-white rounded-xl transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg whitespace-nowrap ${px}`}
           style={{ background: 'linear-gradient(135deg,#FF2D78,#BF00FF)', boxShadow: '0 0 18px rgba(255,45,120,0.35)' }}
         >
           📞 {PHONE}

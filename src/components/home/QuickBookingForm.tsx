@@ -36,8 +36,9 @@ export default function QuickBookingForm() {
 
         {/* Header */}
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-black text-white mb-3">
-            {t('form.title')} <span className="text-gradient">{t('form.title2')}</span>
+          <h2 className="text-2xl md:text-4xl font-black text-white mb-3 leading-snug">
+            {t('form.title')}{' '}
+            <span className="text-gradient">{t('form.title2')}</span>
           </h2>
           <p className="text-gray-400">{t('form.desc')}</p>
         </div>

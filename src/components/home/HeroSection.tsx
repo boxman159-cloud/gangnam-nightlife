@@ -25,35 +25,33 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 max-w-5xl mx-auto w-full">
-        <div className="inline-flex items-center gap-2 bg-white/5 border border-neon-pink/30 rounded-full px-4 py-2 mb-8 backdrop-blur-sm">
-          <span className="w-2 h-2 bg-neon-pink rounded-full animate-pulse" />
-          <span className="text-neon-pink text-sm font-medium tracking-wide">{t('hero.badge')}</span>
+        <div className="inline-flex items-center gap-2 bg-white/5 border border-neon-pink/30 rounded-full px-3 py-1.5 mb-8 backdrop-blur-sm">
+          <span className="w-2 h-2 bg-neon-pink rounded-full animate-pulse flex-shrink-0" />
+          <span className="text-neon-pink text-xs sm:text-sm font-medium tracking-wide whitespace-nowrap">{t('hero.badge')}</span>
         </div>
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-none mb-6 tracking-tight">
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black leading-none mb-6 tracking-tight">
           <span className="block text-gradient">{t('hero.title1')}</span>
           <span className="block text-gradient">{t('hero.title2')}</span>
         </h1>
 
-        <p className="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-gray-300 text-base md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
           {t('hero.desc')}
           <br />
           <span className="text-neon-cyan font-semibold">{t('hero.subDesc')}</span>
         </p>
 
         {/* Primary CTA buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-10">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-10">
           <Link
             href="/#quick-booking"
-            className="btn-primary w-full sm:w-auto text-center text-base md:text-lg px-8 py-4 rounded-xl"
-            style={{ minWidth: '200px' }}
+            className="btn-primary w-full sm:w-auto text-center text-sm md:text-base px-6 py-3.5 rounded-xl"
           >
             {t('hero.tableBook')}
           </Link>
           <Link
             href="/#quick-booking"
-            className="btn-outline w-full sm:w-auto text-center text-base md:text-lg px-8 py-4 rounded-xl"
-            style={{ minWidth: '200px' }}
+            className="btn-outline w-full sm:w-auto text-center text-sm md:text-base px-6 py-3.5 rounded-xl"
           >
             {t('hero.guestApply')}
           </Link>
