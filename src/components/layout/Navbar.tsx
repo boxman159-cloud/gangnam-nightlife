@@ -41,6 +41,7 @@ export default function Navbar() {
               width={44}
               height={44}
               className="object-contain"
+              style={{ mixBlendMode: 'screen' }}
               priority
             />
             <span className="text-white font-black text-lg tracking-tight leading-tight">
