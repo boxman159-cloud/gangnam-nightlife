@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useLanguage } from '@/context/LanguageContext'
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher'
 import ContactButtons from '@/components/ui/ContactButtons'
@@ -33,13 +34,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20 gap-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-neon-pink to-neon-purple flex items-center justify-center">
-              <span className="text-white font-black text-sm">GN</span>
-            </div>
-            <span className="text-white font-black text-xl tracking-tight">
-              강남<span className="text-gradient">클럽앤라운지</span>
-            </span>
+          <Link href="/" className="flex items-center flex-shrink-0">
+            <Image
+              src="/images/logo.webp"
+              alt="강남 클럽앤라운지 로고"
+              width={80}
+              height={45}
+              className="object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Menu */}
