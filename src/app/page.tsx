@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import HeroSection from '@/components/home/HeroSection'
 import VenueListSection from '@/components/home/VenueListSection'
 import WhyUsSection from '@/components/home/WhyUsSection'
+import ClubVsLoungeSection from '@/components/home/ClubVsLoungeSection'
 import QuickBookingForm from '@/components/home/QuickBookingForm'
 import FAQSection from '@/components/home/FAQSection'
 import { FaqJsonLd } from '@/components/seo/JsonLd'
@@ -31,6 +32,7 @@ export default function HomePage() {
       <HeroSection />
       <VenueListSection />
       <WhyUsSection />
+      <ClubVsLoungeSection />
       <QuickBookingForm />
       <FAQSection />
     </>
