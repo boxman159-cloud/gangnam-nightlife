@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import VenueCard from '@/components/ui/VenueCard'
 import { venues } from '@/data/venues'
 import { useLanguage } from '@/context/LanguageContext'
@@ -11,6 +11,14 @@ type Region = '전체' | '청담' | '압구정 로데오'
 export default function VenueListSection() {
   const [activeTab, setActiveTab] = useState<Tab>('all')
   const [activeRegion, setActiveRegion] = useState<Region>('전체')
+
+  useEffect(() => {
+    if (window.location.hash === '#lounges') {
+      setActiveTab('lounge')
+    } else if (window.location.hash === '#clubs') {
+      setActiveTab('club')
+    }
+  }, [])
   const { t } = useLanguage()
 
   const regionLabels: Record<Region, string> = {
@@ -33,6 +41,7 @@ export default function VenueListSection() {
 
   return (
     <section id="clubs" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+      <span id="lounges" className="sr-only" />
       {/* Section header */}
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
@@ -69,7 +78,7 @@ export default function VenueListSection() {
 
       {/* Region filter (lounge only) */}
       {activeTab === 'lounge' && (
-        <div id="lounges" className="flex justify-center gap-2 mb-8">
+        <div className="flex justify-center gap-2 mb-8">
           {(['전체', '청담', '압구정 로데오'] as const).map((region) => (
             <button
               key={region}
