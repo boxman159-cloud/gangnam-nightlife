@@ -9,6 +9,14 @@ const BASE = 'https://allnight.kr'
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE),
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon-64.png', sizes: '64x64', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
+  },
   title: {
     default: '강남 클럽 & 라운지 통합 예약 정보 | 실시간 테이블 및 게스트 문의',
     template: '%s | 강남 클럽 & 라운지 통합 예약',
