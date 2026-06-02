@@ -30,7 +30,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'clublion',
+    id: 'lionsuperclub',
     type: 'club',
     name: '클럽 라이언',
     nameEn: 'CLUB LION',
@@ -88,7 +88,7 @@ export const venues: Venue[] = [
   },
   // ── 청담 라운지 ──────────────────────────────────────────────
   {
-    id: 'bellaircheongdam',
+    id: 'bellair',
     type: 'lounge',
     name: '벨레어청담',
     nameEn: 'BELLAIR CHEONGDAM',
@@ -118,7 +118,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'arjucheongdam',
+    id: 'arzu',
     type: 'lounge',
     name: '아르쥬청담',
     nameEn: 'ARJU CHEONGDAM',
@@ -150,7 +150,7 @@ export const venues: Venue[] = [
     ],
   },
   {
-    id: 'peopleterrace',
+    id: 'peopletheterrace',
     type: 'lounge',
     name: '피플더테라스',
     nameEn: 'PEOPLE THE TERRACE',

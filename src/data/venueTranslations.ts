@@ -58,7 +58,7 @@ export const venueTranslations: VenueTranslationMap = {
     },
   },
 
-  'clublion': {
+  'lionsuperclub': {
     en: {
       description: 'A super-large club on Cheongdam\'s Dosan Boulevard, boasting an unmatched scale and infrastructure in the Gangnam area. Its high ceiling and open feel, massive LED screens, and cutting-edge laser systems deliver the overwhelming sensation of an indoor music festival. EDM, progressive house, and electro house are the main sounds, and large-scale events like \'GLOBAL CALLING\' featuring top domestic and international artists are frequently held. On peak weekend nights, it fills to capacity with an electrifying energy.',
       features: ['Mega-scale 쨌 High ceiling open feel', 'EDM 쨌 Progressive House 쨌 Festival-grade sound', 'Giant LED Screen & Cutting-edge Lasers', 'GLOBAL CALLING International Artist Events'],
@@ -148,7 +148,7 @@ export const venueTranslations: VenueTranslationMap = {
     },
   },
 
-  'bellaircheongdam': {
+  'bellair': {
     en: {
       description: 'A luxurious and trendy lounge bar in Cheongdam that embodies the identity of the premium champagne brand "Luc Belaire." Dark, sophisticated interiors blend with Bellair\'s signature neon lighting and premium sofas, while artistic installations create a private yet trendy Cheongdam atmosphere. Extremely popular for birthday parties, gatherings, and romantic dates. The champagne lineup is exceptional, and the well-equipped private room is a well-known hideaway for celebrities and influencers.',
       features: ['Luc Belaire Brand Identity Space', 'Private Room 쨌 Celebrity & Influencer Hotspot', 'Premium Champagne Lineup', 'Birthday Party 쨌 Date 쨌 Small Gathering'],
@@ -193,7 +193,7 @@ export const venueTranslations: VenueTranslationMap = {
     },
   },
 
-  'arjucheongdam': {
+  'arzu': {
     en: {
       description: 'A luxury lounge near Apgujeong Rodeo Station and Cheongdam\'s luxury street, renowned as an "Instagram-worthy spot" with unrivaled popularity among female guests and couples. Stunning media art, grand chandeliers, mirrors, and refined marble interiors captivate from the moment you enter. The flattering lighting tone makes it one of the hottest spaces on social media. Exquisite birthday party setups including dedicated plates, tiaras, and lettering services stand out, along with visually stunning signature cocktails.',
       features: ['Instagram Hotspot 쨌 Media Art & Marble Interior', 'Birthday Plates 쨌 Tiara 쨌 Lettering Party Service', 'Visual Signature Cocktails', 'Weekend House Music 쨌 Cheongdam Party Vibes'],
@@ -238,7 +238,7 @@ export const venueTranslations: VenueTranslationMap = {
     },
   },
 
-  'peopleterrace': {
+  'peopletheterrace': {
     en: {
       description: 'A dining lounge bar in the heart of Cheongdam where you can experience the exotic feel of a European resort outdoor terrace. The signature outdoor terrace with its white building, arched windows, and lush landscaping is iconic. Inside, a luxurious grand chandelier and gold-tone lighting create a glamorous ambiance. Known as "a lounge with great food," it boasts signature bucket chicken, pasta, steak, and more. The venue transforms from a calm dining mood in the early evening to a champagne party spot as the night progresses.',
       features: ['European Resort-Style Outdoor Terrace', 'Grand Chandelier 쨌 Gold-Tone Luxury Interior', 'Signature Bucket Chicken 쨌 Pasta 쨌 Steak', 'Evening Dining ??Night Champagne Party Transformation'],
