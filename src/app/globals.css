@@ -20,6 +20,14 @@
     font-family: 'Pretendard', 'Inter', -apple-system, sans-serif;
   }
 
+  /* 모바일 한국어 자연스러운 줄바꿈 */
+  @media (max-width: 768px) {
+    h1, h2, h3, h4, p, span, li, blockquote {
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+  }
+
   ::-webkit-scrollbar {
     width: 6px;
   }
