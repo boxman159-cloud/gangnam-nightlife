@@ -114,7 +114,7 @@ export default function VenueDetailTabs({ venue }: VenueDetailTabsProps) {
               {/* Table */}
               <div className="glass-card neon-border rounded-2xl p-6">
                 <div className="text-neon-pink font-bold text-lg mb-2">🍾 테이블 예약</div>
-                <div className="text-4xl font-black text-white mb-4">{tablePrice}</div>
+                <div className="text-2xl font-black text-white mb-4 whitespace-pre-line leading-snug">{tablePrice}</div>
                 <ul className="space-y-2 text-gray-400 text-sm">
                   <li className="flex items-start gap-2"><span className="text-neon-pink mt-0.5">✓</span>지정 테이블 및 전담 서버 배정</li>
                   <li className="flex items-start gap-2"><span className="text-neon-pink mt-0.5">✓</span>보틀 / 음료 패키지 포함</li>
@@ -140,6 +140,12 @@ export default function VenueDetailTabs({ venue }: VenueDetailTabsProps) {
                   게스트 신청하기
                 </button>
               </div>
+            </div>
+
+            <div className="glass-card rounded-2xl p-4 border border-white/10 text-center">
+              <p className="text-gray-500 text-xs leading-relaxed">
+                ※ 상기 금액은 기준 평균가이며, 당일 예약 상황 및 시즌에 따라 유동적으로 변동될 수 있습니다.
+              </p>
             </div>
 
             <div className="glass-card rounded-2xl p-6 border border-yellow-500/20">

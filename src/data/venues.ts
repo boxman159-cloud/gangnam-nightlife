@@ -19,7 +19,7 @@ export const venues: Venue[] = [
     features: ['연중무휴 · 평일도 새벽까지 화력 유지', '커머셜 EDM · 바운스 · 오픈포맷', '달리는 분위기 · 높은 홀 밀집도', '샴페인 쇼 & VIP 보틀 퍼레이드'],
     minAge: 20,
     dressCode: '스마트 캐주얼 이상 (슬리퍼, 반바지 입장 불가)',
-    tablePrice: '문의 후 안내',
+    tablePrice: 'VIP 테이블 300만원~\n일반 테이블 100만원~',
     guestFee: '남성 유료 / 여성 무료',
     operatingHours: '화~일 23:00 ~ 07:00',
     faqs: [
@@ -47,7 +47,7 @@ export const venues: Venue[] = [
     features: ['초대형 스케일 · 높은 층고 개방감', 'EDM · 프로그레시브 하우스 · 페스티벌급 사운드', '거대 LED 스크린 & 최첨단 레이저', 'GLOBAL CALLING 해외 아티스트 초청 파티'],
     minAge: 20,
     dressCode: '스마트 캐주얼 이상',
-    tablePrice: '문의 후 안내',
+    tablePrice: 'VIP 테이블 500만원~\n(해외 아티스트 방문 기준)',
     guestFee: '남성 유료 / 여성 무료',
     operatingHours: '금·토 23:00 ~ 06:00',
     faqs: [
@@ -76,7 +76,7 @@ export const venues: Venue[] = [
     features: ['대한민국 대표 EDM 애프터 클럽', '일렉트로 하우스 · 미니멀 바운스 · 테크노', '새벽 3시~낮 10시 · 아침까지 텐션 유지', '프로 클러버들의 2차 · 3차 성지'],
     minAge: 20,
     dressCode: '캐주얼 (슬리퍼 제외)',
-    tablePrice: '문의 후 안내',
+    tablePrice: '테이블 150만원~',
     guestFee: '남성 유료 / 여성 무료',
     operatingHours: '금·토 03:00 ~ 10:00 (애프터클럽)',
     faqs: [
@@ -107,7 +107,7 @@ export const venues: Venue[] = [
     features: ['룩 벨레어 브랜드 아이덴티티 공간', '프라이빗 룸 · 연예인·인플루언서 방문', '고급 샴페인 라인업', '생일파티 · 데이트 · 소모임 최적'],
     minAge: 19,
     dressCode: '스마트 캐주얼',
-    tablePrice: '문의 후 안내',
+    tablePrice: '룸 100만원~',
     guestFee: '무료 (예약 필수)',
     operatingHours: '24시간 예약 문의 가능',
     faqs: [
@@ -139,7 +139,7 @@ export const venues: Venue[] = [
     features: ['인생샷 명소 · 미디어 아트 & 대리석 인테리어', '생일 전용 플레이트 · 왕관 · 레터링 파티 연출', '비주얼 시그니처 칵테일', '주말 하우스 음악 · 청담 파티 분위기'],
     minAge: 19,
     dressCode: '스마트 캐주얼',
-    tablePrice: '문의 후 안내',
+    tablePrice: '일반 테이블 2바틀~\nVIP 테이블 150만원~\nVIP 룸 150만원~',
     guestFee: '무료 (예약 필수)',
     operatingHours: '24시간 예약 문의 가능',
     faqs: [
@@ -171,7 +171,7 @@ export const venues: Venue[] = [
     features: ['유럽 휴양지 감성 야외 테라스석', '대형 샹들리에 · 골드 톤 럭셔리 인테리어', '시그니처 버킷치킨 · 파스타 · 스테이크', '낮엔 다이닝 · 밤엔 샴페인 파티로 반전'],
     minAge: 19,
     dressCode: '스마트 캐주얼',
-    tablePrice: '문의 후 안내',
+    tablePrice: '1바틀~',
     guestFee: '무료 (예약 필수)',
     operatingHours: '24시간 예약 문의 가능',
     faqs: [
@@ -202,7 +202,7 @@ export const venues: Venue[] = [
     features: ['압구정 최고 에너지 파티 베뉴', 'EDM · 일렉트로 하우스 · 힙합', '네임드 DJ 라인업 이벤트', '화려한 레이저 조명 & 사운드 시스템'],
     minAge: 19,
     dressCode: '캐주얼',
-    tablePrice: '문의 후 안내',
+    tablePrice: '스탠딩 2바틀~\n일반 테이블 5바틀~',
     guestFee: '무료',
     operatingHours: '24시간 예약 문의 가능',
     faqs: [
@@ -232,7 +232,7 @@ export const venues: Venue[] = [
     features: ['스튜디오 세이운 공간 설계', '미니멀 & 힙 스트리트 무드', '트렌디한 힙합 · 오픈포맷 음악', '사진·트렌드 특화 · 포토 인테리어'],
     minAge: 19,
     dressCode: '캐주얼',
-    tablePrice: '문의 후 안내',
+    tablePrice: '스탠딩 2바틀~\n테이블 3바틀~',
     guestFee: '무료',
     operatingHours: '24시간 예약 문의 가능',
     faqs: [
@@ -261,7 +261,7 @@ export const venues: Venue[] = [
     features: ['대형 LED 전광판 & 파티 조명', '세련된 DJ 부스', '평일 공간 대관 가능 (촬영·기업행사)', '소파 & 테이블 쾌적한 좌석 배치'],
     minAge: 19,
     dressCode: '스마트 캐주얼',
-    tablePrice: '문의 후 안내',
+    tablePrice: '스탠딩 2바틀~\n테이블 3바틀~',
     guestFee: '무료',
     operatingHours: '24시간 예약 문의 가능',
     faqs: [
