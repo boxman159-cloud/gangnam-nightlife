@@ -36,12 +36,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
             <Image
-              src="/images/logo.webp"
+              src="/images/logo.png"
               alt="강남 클럽앤라운지 로고"
               width={44}
               height={44}
               className="object-contain"
-              style={{ mixBlendMode: 'screen' }}
               priority
             />
             <span className="text-white font-black text-lg tracking-tight leading-tight">
